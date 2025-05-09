@@ -45,7 +45,7 @@ body{
 /* main */
 
 .container{
-    padding: 5% 15%;
+    padding: 2% 5% 3% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -152,8 +152,8 @@ body{
     max-width: 70%;
 }
 
-img{
-    max-width: 30%;
+.container_img_joana{
+    width: 50%;
 }
 
 @media (max-width:1200px){

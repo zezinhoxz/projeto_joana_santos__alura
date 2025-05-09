@@ -45,7 +45,7 @@ body{
 /* main */
 
 .container{
-    padding: 2% 5% 3% 15%;
+    padding: 3.5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -60,7 +60,7 @@ body{
 }
 
 .container__conteudo__titulo{
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-family: var(--fonte-primaria);
 }
 
@@ -112,6 +112,10 @@ body{
     width: 50%;
 }
 
+.container__img__joana{
+    width: 50%;
+}
+
 /* footer */
 
 .rodape{
@@ -128,17 +132,9 @@ body{
 
 /* sobre mim */
 
-.container2{
-    padding: 5% 15%;
-    display: flex;
-    gap: 30px;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.container2__titulo{
+.container2__conteudo__titulo{
     font-family: var(--fonte-primaria);
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 
@@ -148,17 +144,18 @@ body{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    margin: 5% 0;
+    /* margin: 5% 0; */
     max-width: 70%;
+    text-align: justify;
 }
 
-.container_img_joana{
-    width: 50%;
+.container2__img__emily{
+    width: 35%;
 }
 
 @media (max-width:1200px){
     .cabecalho{
-        padding: 10% 0 0 0;
+        padding: 10% 0;
     }
 
     .cabecalho__menu{
@@ -175,5 +172,9 @@ body{
     .container__conteudo{
         width: 85%;
         gap: 20px;
+    }
+
+    .container2__img__emily{
+        width: 50%;
     }
 }
